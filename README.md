@@ -37,13 +37,22 @@ Hangman Game is a classic word guessing game implemented in Python. Guess the le
 Welcome to Hangman Game!
 
 +---+
+
 |   |
+
    |
+
    |
+   
    |
+   
    |
+   
 =========
+
 _ _ _ _ _
+
+
 Guess a letter: a
 
 +---+
