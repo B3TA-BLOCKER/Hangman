@@ -1,36 +1,153 @@
 # Hangman Game
 
-Hangman Game is a simple console-based word guessing game implemented in Python. Players can guess letters to uncover a randomly chosen word. The game provides visual feedback with hangman stages and displays the current state of the word.
+Hangman Game is a classic word guessing game implemented in Python. Guess the letters of a randomly chosen word and avoid running out of lives. Enjoy the challenge of uncovering the hidden word with interactive hangman stages.
 
+## Table of Contents
+- [Features](#features)
+- [How to Play](#how-to-play)
+- [Gameplay](#gameplay)
+- [Dependencies](#dependencies)
+- 
 ## Features
 
-- Randomly selects a word from a predefined list.
-- Allows players to guess letters.
-- Provides feedback on correct and incorrect guesses.
-- Displays hangman stages based on the number of incorrect guesses.
-- Ends the game when the word is guessed or when the player runs out of lives.
+- Randomly selects a word from a predefined list of challenging words.
+- Visual feedback with interactive hangman stages for incorrect guesses.
+- Clear console screen for an enhanced user experience.
+- Simple and intuitive gameplay.
 
 ## How to Play
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Run the game.
+1. Clone the repository to your local machine:
+git clone https://github.com/B3TA-BLOCKER/Hangman.git
+
+2. Navigate to the project directory:
+cd Hangman
+
+3. Run the game:
+python hangman.py
 
 
 
+## Gameplay
 
-## Gameplay Instructions
+``plaintext
+Welcome to Hangman Game!
 
-1. The game will display underscores representing the letters of the word to be guessed.
-2. Guess a letter by entering it through the console.
-3. The game will indicate if the letter is correct or incorrect.
-4. If the letter is correct, it will replace the corresponding underscore(s) in the word.
-5. If the letter is incorrect, the hangman stage will progress, and you will lose a life.
-6. Continue guessing until you correctly guess the word or run out of lives.
++---+
+|   |
+   |
+   |
+   |
+   |
+=========
+_ _ _ _ _
+Guess a letter: a
 
++---+
+|   |
+O   |
+   |
+   |
+   |
+=========
+_ A _ _ _
+Guess a letter: e
 
++---+
+|   |
+O   |
+   |
+   |
+   |
+=========
+_ A _ E _
+Guess a letter: t
 
++---+
+|   |
+O   |
+   |
+   |
+   |
+=========
+_ A _ E _
+Guess a letter: i
 
++---+
+|   |
+O   |
+   |
+   |
+   |
+=========
+_ A I E _
+Guess a letter: p
 
++---+
+|   |
+O   |
+   |
+   |
+   |
+=========
+_ A I E _
+Guess a letter: r
 
-- Feel free to contribute and enjoy playing Hangman!
++---+
+|   |
+O   |
+   |
+   |
+   |
+=========
+_ A I E R
+Guess a letter: s
+
++---+
+|   |
+O   |
+/|   |
+   |
+   |
+=========
+_ A I E R
+Guess a letter: l
+
++---+
+|   |
+O   |
+/|   |
+   |
+   |
+=========
+_ A I E R
+Guess a letter: o
+
++---+
+|   |
+O   |
+/|   |
+/    |
+   |
+=========
+_ A I E R
+Guess a letter: n
+
++---+
+|   |
+O   |
+/|   |
+/ \  |
+   |
+=========
+N A I E R
+Guess a letter: n
+
+Congratulations! You guessed the word: NAIVER
+
+## Dependencies
+The game uses the following files:
+
+- hangman.py: The main Python script for the Hangman game.
+- Hangman_art.py: Contains ASCII art for different hangman stages and the game logo.
+- Hangman_words.py: Provides a list of words for the game.
