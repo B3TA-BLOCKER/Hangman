@@ -18,12 +18,15 @@ Hangman Game is a classic word guessing game implemented in Python. Guess the le
 ## How to Play
 
 1. Clone the repository to your local machine:
+   
 git clone https://github.com/B3TA-BLOCKER/Hangman.git
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
+
 cd Hangman
 
-3. Run the game:
+5. Run the game:
+
 python hangman.py
 
 
