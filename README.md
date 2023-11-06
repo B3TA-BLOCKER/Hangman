@@ -6,7 +6,7 @@ Hangman Game is a classic word guessing game implemented in Python. Guess the le
 - [Features](#features)
 - [How to Play](#how-to-play)
 - [Dependencies](#dependencies)
-- 
+
 ## Features
 
 - Randomly selects a word from a predefined list of challenging words.
