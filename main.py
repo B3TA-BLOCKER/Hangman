@@ -1,8 +1,8 @@
 from os import system
-from Hangman_words import word_list
-from Hangman_art import logo
+from words import word_list
+from art import logo
 import random
-from Hangman_art import stages
+from art import stages
 
 
 system('cls')
