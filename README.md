@@ -1,16 +1,16 @@
-# 🎮 Hangman Game 🪓
+#  **Hangman Game 🪓**
 
 Hangman Game is a classic word guessing game implemented in Python. Guess the letters of a randomly chosen word and avoid running out of lives. Enjoy the challenge of uncovering the hidden word with interactive hangman stages.
 
 
-## Features 🌟
+## **Features 🌟**
 
 - Randomly selects a word from a predefined list of challenging words.
 - Visual feedback with interactive hangman stages for incorrect guesses.
 - Clear console screen for an enhanced user experience.
 - Simple and intuitive gameplay.
 
-## How to Play 🎲
+## **How to Play 🎲**
 
 1. Clone the repository to your local machine:
    ```bash
@@ -23,13 +23,13 @@ Hangman Game is a classic word guessing game implemented in Python. Guess the le
 
 5. Run the game:
    ```bash
-   python hangman.py
+   python main.py
    ```
 
-## Dependencies 📦
+## **Dependencies 📦**
 
 The game uses the following files:
 
-- hangman.py: The main Python script for the Hangman game.
-- Hangman_art.py: Contains ASCII art for different hangman stages and the game logo.
-- Hangman_words.py: Provides a list of words for the game.
+- main.py: The main Python script for the Hangman game.
+- art.py: Contains ASCII art for different hangman stages and the game logo.
+- words.py: Provides a list of words for the game.
